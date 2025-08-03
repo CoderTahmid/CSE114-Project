@@ -2,4 +2,5 @@
 
 int main () {
     printf("Hello Wolrd!");
+    printf("very good");
 }
