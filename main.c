@@ -65,7 +65,6 @@ int main()
             statisticsAndSummaryFunction();
         } else {
             printf("Invalid choice\n");
-
         }
     }
 }
