@@ -1,3 +1,14 @@
 BasedOnStyle: Google
+
+# --- Stop automatic wrapping ---
+ColumnLimit: 0   # 0 means "no wrapping"
+
+# --- Brace style ---
 BraceWrapping:
   AfterStruct: false
+
+# --- Indentation ---
+UseTab: Never        # Use spaces, not actual tab characters
+IndentWidth: 4       # Size of each indent level
+TabWidth: 4          # How many spaces a tab represents
+ContinuationIndentWidth: 4  # Align continued lines with same 4-space indent
