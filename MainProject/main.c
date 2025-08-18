@@ -27,6 +27,7 @@ void showRatedMovies() {
         if (sscanf(line, "%[^,], %f", movieName, &rate) == 2) {
             printf("Movie name: %s\tRating: %.1f\n", movieName, rate);
         }
+        printf("ddsds");
     }
 }
 
